@@ -10,7 +10,7 @@ wheels/
 .venv
 
 # data files
-
+boston/
 
 # netology examples
 DLL/
