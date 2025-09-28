@@ -3,17 +3,15 @@
 Project Description
 
 Setup Instructions
-1. Clone the repository:
+1. Clone the tenplate:
     ```bash
-    git clone git@github.com:BalshowAndrew/netology-pytorch-project.git
     cd netology-pytorch-project
     ```
 
-    
 2. Create a project:
     ```bash
-    uv python pin 3.11
-    uv init
-    uv venv
-    uv add --requirements requirements.txt
+    uv sync
+    source .venv/bin/activate
+    python3 -m ipykernel install --user --name=<new-kernel-name>
+    git init
     ```
