@@ -12,6 +12,7 @@ wheels/
 # data files
 boston/
 MNIST/
+FashionMNIST/
 
 # netology examples
 DLL/
